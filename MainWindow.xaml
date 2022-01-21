@@ -1,0 +1,29 @@
+﻿<Window x:Class="Laskin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laskin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="painike1" Content="1" HorizontalAlignment="Left" Margin="223,326,0,0" VerticalAlignment="Top" Click="painike1_Click"/>
+        <Button x:Name="painike2" Content="2" HorizontalAlignment="Left" Margin="246,326,0,0" VerticalAlignment="Top" Click="painike2_Click"/>
+        <Button x:Name="painike3" Content="3" HorizontalAlignment="Left" Margin="277,326,0,0" VerticalAlignment="Top" Click="painike3_Click"/>
+        <Button x:Name="painike4" Content="4" HorizontalAlignment="Left" Margin="223,292,0,0" VerticalAlignment="Top" Click="painike4_Click"/>
+        <Button x:Name="painike5" Content="5" HorizontalAlignment="Left" Margin="246,292,0,0" VerticalAlignment="Top" Click="painike5_Click"/>
+        <Button x:Name="painike6" Content="6" HorizontalAlignment="Left" Margin="277,292,0,0" VerticalAlignment="Top" Click="painike6_Click"/>
+        <Button x:Name="painike7" Content="7" HorizontalAlignment="Left" Margin="223,256,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.226,0.525" Click="painike7_Click"/>
+        <Button x:Name="painike8" Content="8" HorizontalAlignment="Left" Margin="246,256,0,0" VerticalAlignment="Top" Click="painike8_Click"/>
+        <Button x:Name="painike9" Content="9" HorizontalAlignment="Left" Margin="277,256,0,0" VerticalAlignment="Top" Click="painike9_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="215,117,0,0" Stroke="Black" VerticalAlignment="Top" Width="117"/>
+        <TextBox x:Name="tekstilaatikko" HorizontalAlignment="Left" Margin="228,135,0,0" TextWrapping="Wrap" Text="&quot;&quot;" VerticalAlignment="Top" Width="92"/>
+        <Button x:Name="painikeyht" Content="=" HorizontalAlignment="Left" Margin="308,326,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.606,0.011" Click="painikeyht_Click"/>
+        <Button x:Name="painikeC" Content="C" HorizontalAlignment="Left" Margin="308,292,0,0" VerticalAlignment="Top" Click="painikeC_Click"/>
+        <Button x:Name="painikekeno" Content="/" HorizontalAlignment="Left" Margin="308,256,0,0" VerticalAlignment="Top" Click="painikekeno_Click"/>
+        <Button x:Name="painikekertaa" Content="*" HorizontalAlignment="Left" Margin="278,224,0,0" VerticalAlignment="Top" Click="painikekertaa_Click"/>
+        <Button x:Name="painikemiinus" Content="-" HorizontalAlignment="Left" Margin="247,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.834,0.608" Click="painikemiinus_Click"/>
+        <Button x:Name="painikeplus" Content="+" HorizontalAlignment="Left" Margin="222,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.178,-0.044" Click="painikeplus_Click"/>
+
+    </Grid>
+</Window>
